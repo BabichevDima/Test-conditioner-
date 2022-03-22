@@ -1,0 +1,102 @@
+@grey: #bbbaba;
+
+// .container {
+//   max-width: 1664px;
+//   width: 100%;
+//   margin: auto;
+//   padding: 0 15px;
+//   box-sizing: border-box;
+//   border: 1px solid red;
+// }
+
+// .footer-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background: #568FB1;
+// }
+
+// .footer__info {
+//   color: @grey;
+// }
+
+.footer {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.footer__top {
+  width: 100%;
+  color: #fff;
+  background: #36689f;
+}
+.footer__top_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 128px;
+}
+.footer__description {
+  width: 15%;
+}
+.footer__input {
+  width: 368px;
+  height: 30px;
+  margin-right: 6px;
+  padding: 0 8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+.footer__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 66px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #6cafdd 0%, #4e8abe 198.96%);
+  border-radius: 8px;
+}
+.footer__button:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #568fb1 0%, #36689f 198.96%);
+  box-shadow: 0px 0px 20px rgba(54, 104, 159, 0.25);
+}
+.footer__button:active {
+  background: linear-gradient(180deg, #36689F 0%, #2D5785 198.96%);
+}
+
+.footer__main_container {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__main_container.container {
+  padding: 40px 10px;
+}
+.wrap_info {
+  width: 25%;
+}
+.wrap_info > ul > li,
+.wrap > ul > li {
+  margin-bottom: 22px;
+  transition: all 0.2s;
+}
+.wrap > ul > li:hover {
+  margin-bottom: 22px;
+  cursor: pointer;
+  color:#568fb1;
+}
+.wrap_nav {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}
